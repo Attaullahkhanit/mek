@@ -6,3 +6,4 @@ A utility package for debounce and throttle functions.
 
 ```bash
 npm install mek
+
