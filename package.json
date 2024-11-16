@@ -1,5 +1,5 @@
 {
-  "name": "mek",
+  "name": "mek-freq",
   "version": "1.0.0",
   "description": "A utility package for debounce and throttle functions",
   "main": "index.js",
