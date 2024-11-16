@@ -1,0 +1,13 @@
+{
+  "name": "mek",
+  "version": "1.0.0",
+  "description": "A package for debounce and throttle utilities",
+  "main": "index.js",
+  "keywords": ["debounce", "throttle", "react", "utilities"],
+  "author": "Attaullah Khan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Attaullahkhanit/mek"
+  }
+}
