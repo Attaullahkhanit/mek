@@ -15,12 +15,10 @@ The debounce function delays the execution of a function until a specified delay
 
 javascript code:
 import { debounce } from 'mek-freq';
-
 function App() {
   const handleInputChange = debounce((event) => {
     console.log('Input value:', event.target.value);
   }, 300);
-
   return (
     <div>
       <h1>Debounce Example</h1>
@@ -28,26 +26,21 @@ function App() {
     </div>
   );
 }
-
 export default App;
 
 
 Throttle Function
 The throttle function ensures that a function is executed at most once during a specified interval.
-
 javascript code:
 import { throttle } from 'mek-freq';
-
 function App() {
   const handleScroll = throttle(() => {
     console.log('Scroll event triggered');
   }, 500);
-
   React.useEffect(() => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, [handleScroll]);
-
   return (
     <div>
       <h1>Throttle Example</h1>
@@ -55,7 +48,6 @@ function App() {
     </div>
   );
 }
-
 export default App;
 
 API
