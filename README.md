@@ -2,10 +2,7 @@ mek-freq
 mek-freq is a lightweight utility library designed to optimize rendering frequency and improve application performance. It provides implementations for debounce and throttle functions, helping control how frequently functions execute in response to events.
 
 Installation
-Install the mek-freq package via npm:
-
-bash Copy code
-npm install mek-freq
+Install the mek-freq package via npm: npm install mek-freq
 
 Features
 Debounce: Ensures that a function is executed only after a specified delay following the last event.
@@ -16,7 +13,7 @@ Below are examples of how to use debounce and throttle in a React.js application
 Debounce Function
 The debounce function delays the execution of a function until a specified delay has passed since the last time it was invoked.
 
-javascript Copy code
+javascript code:
 import { debounce } from 'mek-freq';
 
 function App() {
@@ -38,7 +35,7 @@ export default App;
 Throttle Function
 The throttle function ensures that a function is executed at most once during a specified interval.
 
-javascript Copy code
+javascript code:
 import { throttle } from 'mek-freq';
 
 function App() {
@@ -63,14 +60,14 @@ export default App;
 
 API
 Debounce
-javascript Copy code
+javascript code:
 debounce(func, delay)
 func: The function to debounce.
 delay: The delay time in milliseconds.
 Returns: A new function that delays the execution of func until after the delay has elapsed since the last invocation.
 
 Throttle
-javascript Copy code
+javascript code:
 throttle(func, interval)
 func: The function to throttle.
 interval: The interval time in milliseconds.
