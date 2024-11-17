@@ -1,6 +1,6 @@
 {
   "name": "mek-freq",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A utility package for debounce and throttle functions",
   "main": "index.js",
   "keywords": [
