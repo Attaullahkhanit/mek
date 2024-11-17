@@ -12,14 +12,13 @@ Below are examples of how to use debounce and throttle in a React.js application
 Debounce Function
 The debounce function ensures the function is called only after a delay has passed since the last invocation.
 
+Debounce Example
 javascript code
 import { debounce } from 'mek-freq';  
-
 function App() {  
   const handleInputChange = debounce((event) => {  
     console.log('Input value:', event.target.value);  
-  }, 300);  
-
+  }, 300);
   return (  
     <div>  
       <h1>Debounce Example</h1>  
@@ -31,24 +30,22 @@ function App() {
     </div>  
   );  
 }  
+export default App; 
 
-export default App;  
+Trottling Example
 Throttle Function
 The throttle function limits the function execution to once during a specified interval.
 
 javascript code
 import { throttle } from 'mek-freq';  
-
 function App() {  
   const handleScroll = throttle(() => {  
     console.log('Scroll event triggered');  
-  }, 500);  
-
+  }, 500);
   React.useEffect(() => {  
     window.addEventListener('scroll', handleScroll);  
     return () => window.removeEventListener('scroll', handleScroll);  
-  }, [handleScroll]);  
-
+  }, [handleScroll]);
   return (  
     <div>  
       <h1>Throttle Example</h1>  
@@ -58,7 +55,6 @@ function App() {
     </div>  
   );  
 }  
-
 export default App;  
 API Reference
 Debounce
