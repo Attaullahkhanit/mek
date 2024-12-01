@@ -11,11 +11,11 @@ You can install the package via npm:
 npm install mek-freq
 ```
 # Features
-#### Debounce: 
+### Debounce: 
 `Delays` the execution of a function until a specified amount of time has passed since the last
 `event`. Useful for scenarios like preventing an API call on every keystroke in a search input.
 
-#### Throttle: 
+### Throttle: 
 Limits the execution of a function to at most once within a specified time interval. Ideal for scenarios like reducing the frequency of scroll or resize event listeners.
 
 ## Usage Examples
@@ -46,7 +46,7 @@ function App() {
 export default App;
 ```
 
-# Explanation:
+### Explanation:
 The handleInputChange function is debounced by 300 milliseconds.
 The function will only execute if the user stops typing for 300ms, avoiding unnecessary frequent
 API calls.
@@ -110,14 +110,14 @@ throttle(func, interval)
 A new throttled function that executes func at most once per interval.
 
 # Real-World Use Cases
-### Debounce
+## Debounce
 #### Search Bar Input:
 When a user types in a search bar, debounce can delay triggering the search API
 call until the user pauses typing. This reduces redundant API calls and optimizes performance.
 
-### Throttle
+## Throttle
 #### Scroll Event Listener:
 Throttle can limit the frequency of executions for scroll-related
 calculations or re-renders, improving performance during continuous scrolling.
 # License: 
-This project is licensed under the `MIT License`. For details, see the LICENSE file.
+This project is licensed under the [MIT LICENSE](https://github.com/Attaullahkhanit/mek/blob/main/README.md). For details, see the LICENSE file[LICENSE](https://github.com/Attaullahkhanit/mek/blob/main/README.md).
