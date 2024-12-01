@@ -120,4 +120,4 @@ call until the user pauses typing. This reduces redundant API calls and optimize
 Throttle can limit the frequency of executions for scroll-related
 calculations or re-renders, improving performance during continuous scrolling.
 # License: 
-This project is licensed under the [MIT LICENSE](https://github.com/Attaullahkhanit/mek/blob/main/README.md). For details, see the LICENSE file[LICENSE](https://github.com/Attaullahkhanit/mek/blob/main/README.md).
+This project is licensed under the [MIT LICENSE](https://github.com/Attaullahkhanit/mek/blob/main/LICENSE). For details, see the [LICENSE](https://github.com/Attaullahkhanit/mek/blob/main/LICENSE) file.
